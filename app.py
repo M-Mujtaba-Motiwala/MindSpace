@@ -628,7 +628,7 @@ div[class*="st-key-mic_fab"] {
 # ── MODEL / DATA WARM-UP ──────────────────────────────────────────────────────
 @st.cache_data(show_spinner=False)
 def load_dataset():
-    d = pd.read_csv(r"C:\Users\CZ 3\Downloads\enhanced_mental_health_chatbot_dataset (1).csv")
+    d = pd.read_csv(r"enhanced_mental_health_chatbot_dataset (1).csv")
     d.columns = d.columns.str.strip().str.lower()
     return d
 
