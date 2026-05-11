@@ -5,7 +5,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.neural_network import MLPClassifier
 
 # Load dataset
-df = pd.read_csv(r"C:\Users\CZ 3\Downloads\enhanced_mental_health_chatbot_dataset (1).csv")
+df = pd.read_csv(r"enhanced_mental_health_chatbot_dataset (1).csv")
 df.columns = df.columns.str.strip().str.lower()
 
 # Clean text
